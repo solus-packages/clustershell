@@ -1,0 +1,158 @@
+<PISI>
+    <Source>
+        <Name>clustershell</Name>
+        <Packager>
+            <Name>Tristan</Name>
+            <Email>freego008@gmail.com</Email>
+        </Packager>
+        <License>CeCILL-C</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">Clustershell is designed to run local or distant command in parallel</Summary>
+        <Description xml:lang="en">ClusterShell is an event-driven open source Python library, designed to run local or distant commands in parallel on server farms or on large Linux clusters. It will take care of common issues encountered on HPC clusters, such as operating on groups of nodes, running distributed commands using optimized execution algorithms, as well as gathering results and merging identical outputs, or retrieving return codes. ClusterShell takes advantage of existing remote shell facilities already installed on your systems, like SSH
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>clustershell</Name>
+        <Summary xml:lang="en">Clustershell is designed to run local or distant command in parallel</Summary>
+        <Description xml:lang="en">ClusterShell is an event-driven open source Python library, designed to run local or distant commands in parallel on server farms or on large Linux clusters. It will take care of common issues encountered on HPC clusters, such as operating on groups of nodes, running distributed commands using optimized execution algorithms, as well as gathering results and merging identical outputs, or retrieving return codes. ClusterShell takes advantage of existing remote shell facilities already installed on your systems, like SSH
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="config">/etc/clustershell/clush.conf</Path>
+            <Path fileType="config">/etc/clustershell/groups.conf</Path>
+            <Path fileType="config">/etc/clustershell/groups.conf.d/README</Path>
+            <Path fileType="config">/etc/clustershell/groups.conf.d/genders.conf.example</Path>
+            <Path fileType="config">/etc/clustershell/groups.conf.d/slurm.conf.example</Path>
+            <Path fileType="config">/etc/clustershell/groups.d/README</Path>
+            <Path fileType="config">/etc/clustershell/groups.d/cluster.yaml.example</Path>
+            <Path fileType="config">/etc/clustershell/groups.d/local.cfg</Path>
+            <Path fileType="config">/etc/clustershell/topology.conf.example</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.2-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.2-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.2-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.2-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Clubak.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Clubak.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Clubak.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Clush.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Clush.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Clush.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Config.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Config.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Config.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Display.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Display.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Display.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Error.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Error.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Error.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Nodeset.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Nodeset.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Nodeset.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/OptionParser.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/OptionParser.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/OptionParser.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Utils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Utils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Utils.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Communication.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Communication.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Communication.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Defaults.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Defaults.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Defaults.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/EPoll.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/EPoll.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/EPoll.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Engine.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Engine.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Engine.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Factory.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Factory.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Factory.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Poll.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Poll.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Poll.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Select.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Select.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/Select.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Engine/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Event.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Event.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Event.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Gateway.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Gateway.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Gateway.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/MsgTree.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/MsgTree.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/MsgTree.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/NodeSet.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/NodeSet.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/NodeSet.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/NodeUtils.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/NodeUtils.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/NodeUtils.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Propagation.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Propagation.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Propagation.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/RangeSet.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/RangeSet.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/RangeSet.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Task.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Task.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Task.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Topology.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Topology.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Topology.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/EngineClient.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/EngineClient.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/EngineClient.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Exec.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Exec.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Exec.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Pdsh.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Pdsh.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Pdsh.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Popen.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Popen.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Popen.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Rsh.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Rsh.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Rsh.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Ssh.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Ssh.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Ssh.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Tree.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Tree.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Tree.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Worker.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Worker.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/Worker.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/__init__.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/fastsubprocess.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/fastsubprocess.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/Worker/fastsubprocess.pyo</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/__init__.pyo</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-10-21</Date>
+            <Version>1.7.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Tristan</Name>
+            <Email>freego008@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
