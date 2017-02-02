@@ -5,7 +5,7 @@
             <Name>Tristan</Name>
             <Email>freego008@gmail.com</Email>
         </Packager>
-        <License>CeCILL-C</License>
+        <License>LGPL-2.1</License>
         <PartOf>system.utils</PartOf>
         <Summary xml:lang="en">Clustershell is designed to run local or distant command in parallel</Summary>
         <Description xml:lang="en">ClusterShell is an event-driven open source Python library, designed to run local or distant commands in parallel on server farms or on large Linux clusters. It will take care of common issues encountered on HPC clusters, such as operating on groups of nodes, running distributed commands using optimized execution algorithms, as well as gathering results and merging identical outputs, or retrieving return codes. ClusterShell takes advantage of existing remote shell facilities already installed on your systems, like SSH
@@ -29,10 +29,12 @@
             <Path fileType="config">/etc/clustershell/groups.d/local.cfg</Path>
             <Path fileType="config">/etc/clustershell/topology.conf.example</Path>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.2-py2.7.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.2-py2.7.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.2-py2.7.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.2-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.3-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.3-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.3-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.3-py2.7.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.3-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell-1.7.3-py2.7.egg-info/top_level.txt</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Clubak.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Clubak.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/ClusterShell/CLI/Clubak.pyo</Path>
@@ -147,9 +149,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-10-21</Date>
-            <Version>1.7.2</Version>
+        <Update release="2">
+            <Date>2016-10-24</Date>
+            <Version>1.7.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Tristan</Name>
             <Email>freego008@gmail.com</Email>

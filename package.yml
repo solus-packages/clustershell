@@ -1,9 +1,9 @@
 name       : clustershell
-version    : 1.7.2
-release    : 1
+version    : 1.7.3
+release    : 2
 source     :
-    - https://github.com/cea-hpc/clustershell/archive/v1.7.2.tar.gz : b5999f9a565e7ef56e0aecfa5951d908a782f1fea322947c073d89ec716a7c2e
-license    : CeCILL-C
+    - https://github.com/cea-hpc/clustershell/archive/v1.7.3.tar.gz : 05724cf189aae4585576faa5183eb9be97bf2993b1d0049b9e0e2689f76661fc
+license    : LGPL-2.1
 component  : system.utils
 summary    : Clustershell is designed to run local or distant command in parallel
 description: |
