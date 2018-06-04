@@ -1,8 +1,8 @@
 name       : clustershell
-version    : 1.7.3
-release    : 2
+version    : 1.8
+release    : 3
 source     :
-    - https://github.com/cea-hpc/clustershell/archive/v1.7.3.tar.gz : 05724cf189aae4585576faa5183eb9be97bf2993b1d0049b9e0e2689f76661fc
+    - https://github.com/cea-hpc/clustershell/archive/v1.8.tar.gz : ad5a13e2d107b4095229810c35365e22ea94dfd2baf4fdcfcc68ce58ee37cee3
 license    : LGPL-2.1
 component  : system.utils
 summary    : Clustershell is designed to run local or distant command in parallel
@@ -13,6 +13,6 @@ builddeps  :
 rundeps    :
     - pyyaml
 build      : |
-    %python_setup
+    %python3_setup
 install    : |
-    %python_install
+    %python3_install
