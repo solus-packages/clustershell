@@ -2,15 +2,15 @@
     <Source>
         <Name>clustershell</Name>
         <Packager>
-            <Name>Tristan Bouillon</Name>
-            <Email>freego008@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>LGPL-2.1</License>
         <PartOf>system.utils</PartOf>
         <Summary xml:lang="en">Clustershell is designed to run local or distant command in parallel</Summary>
         <Description xml:lang="en">ClusterShell is an event-driven open source Python library, designed to run local or distant commands in parallel on server farms or on large Linux clusters. It will take care of common issues encountered on HPC clusters, such as operating on groups of nodes, running distributed commands using optimized execution algorithms, as well as gathering results and merging identical outputs, or retrieving return codes. ClusterShell takes advantage of existing remote shell facilities already installed on your systems, like SSH
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>clustershell</Name>
@@ -28,133 +28,136 @@
             <Path fileType="config">/etc/clustershell/groups.d/cluster.yaml.example</Path>
             <Path fileType="config">/etc/clustershell/groups.d/local.cfg</Path>
             <Path fileType="config">/etc/clustershell/topology.conf.example</Path>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell-1.8-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell-1.8-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell-1.8-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell-1.8-py3.6.egg-info/entry_points.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell-1.8-py3.6.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell-1.8-py3.6.egg-info/top_level.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/Clubak.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/Clush.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/Config.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/Display.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/Error.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/Nodeset.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/OptionParser.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/Utils.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Clubak.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Clubak.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Clush.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Clush.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Config.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Config.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Display.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Display.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Error.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Error.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Nodeset.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Nodeset.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/OptionParser.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/OptionParser.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Utils.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/Utils.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/__init__.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/CLI/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Communication.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Defaults.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/EPoll.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/Engine.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/Factory.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/Poll.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/Select.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/EPoll.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/EPoll.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/Engine.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/Engine.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/Factory.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/Factory.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/Poll.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/Poll.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/Select.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/Select.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/__init__.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Engine/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Event.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Gateway.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/MsgTree.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/NodeSet.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/NodeUtils.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Propagation.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/RangeSet.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Task.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Topology.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/EngineClient.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/Exec.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/Pdsh.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/Popen.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/Rsh.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/Ssh.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/Tree.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/Worker.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/EngineClient.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/EngineClient.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Exec.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Exec.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Pdsh.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Pdsh.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Popen.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Popen.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Rsh.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Rsh.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Ssh.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Ssh.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Tree.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Tree.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Worker.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/Worker.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/__init__.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/fastsubprocess.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/__pycache__/fastsubprocess.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/Worker/fastsubprocess.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Communication.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Communication.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Defaults.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Defaults.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Event.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Event.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Gateway.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Gateway.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/MsgTree.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/MsgTree.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/NodeSet.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/NodeSet.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/NodeUtils.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/NodeUtils.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Propagation.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Propagation.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/RangeSet.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/RangeSet.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Task.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Task.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Topology.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/Topology.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/__init__.cpython-36.opt-1.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/ClusterShell/__pycache__/__init__.cpython-36.pyc</Path>
+            <Path fileType="executable">/usr/bin/clubak</Path>
+            <Path fileType="executable">/usr/bin/cluset</Path>
+            <Path fileType="executable">/usr/bin/clush</Path>
+            <Path fileType="executable">/usr/bin/nodeset</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell-1.8-py3.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell-1.8-py3.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell-1.8-py3.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell-1.8-py3.7.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell-1.8-py3.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell-1.8-py3.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/Clubak.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/Clush.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/Config.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/Display.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/Error.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/Nodeset.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/OptionParser.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/Utils.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Clubak.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Clubak.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Clush.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Clush.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Config.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Config.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Display.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Display.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Error.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Error.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Nodeset.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Nodeset.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/OptionParser.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/OptionParser.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Utils.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/Utils.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/__init__.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/CLI/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Communication.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Defaults.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/EPoll.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/Engine.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/Factory.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/Poll.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/Select.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/EPoll.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/EPoll.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/Engine.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/Engine.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/Factory.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/Factory.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/Poll.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/Poll.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/Select.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/Select.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/__init__.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Engine/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Event.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Gateway.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/MsgTree.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/NodeSet.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/NodeUtils.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Propagation.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/RangeSet.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Task.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Topology.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/EngineClient.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/Exec.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/Pdsh.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/Popen.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/Rsh.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/Ssh.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/Tree.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/Worker.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/EngineClient.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/EngineClient.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Exec.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Exec.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Pdsh.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Pdsh.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Popen.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Popen.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Rsh.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Rsh.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Ssh.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Ssh.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Tree.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Tree.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Worker.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/Worker.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/__init__.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/fastsubprocess.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/__pycache__/fastsubprocess.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/Worker/fastsubprocess.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Communication.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Communication.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Defaults.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Defaults.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Event.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Event.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Gateway.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Gateway.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/MsgTree.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/MsgTree.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/NodeSet.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/NodeSet.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/NodeUtils.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/NodeUtils.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Propagation.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Propagation.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/RangeSet.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/RangeSet.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Task.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Task.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Topology.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/Topology.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/__init__.cpython-37.opt-1.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/ClusterShell/__pycache__/__init__.cpython-37.pyc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-05-28</Date>
+        <Update release="4">
+            <Date>2020-01-26</Date>
             <Version>1.8</Version>
             <Comment>Packaging update</Comment>
-            <Name>Tristan Bouillon</Name>
-            <Email>freego008@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>

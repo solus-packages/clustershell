@@ -1,6 +1,6 @@
 name       : clustershell
 version    : 1.8
-release    : 3
+release    : 4
 source     :
     - https://github.com/cea-hpc/clustershell/archive/v1.8.tar.gz : ad5a13e2d107b4095229810c35365e22ea94dfd2baf4fdcfcc68ce58ee37cee3
 license    : LGPL-2.1
@@ -8,7 +8,7 @@ component  : system.utils
 summary    : Clustershell is designed to run local or distant command in parallel
 description: |
     ClusterShell is an event-driven open source Python library, designed to run local or distant commands in parallel on server farms or on large Linux clusters. It will take care of common issues encountered on HPC clusters, such as operating on groups of nodes, running distributed commands using optimized execution algorithms, as well as gathering results and merging identical outputs, or retrieving return codes. ClusterShell takes advantage of existing remote shell facilities already installed on your systems, like SSH
-builddeps  : 
+builddeps  :
     - python-setuptools
 rundeps    :
     - pyyaml
